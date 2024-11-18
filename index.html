@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!--MENU SUPERIOR-->
+        <div id="menuSuperior">
+            <a href="https://ed.escoladnc.com/formacoes-g/?utm_source=adwords&utm_medium=paid&utm_campaign=hr-ga-geral-312-1&utm_content=hr-ga-geral-312-1-1&utm_term=escola%20dnc&utm_term=escola%20dnc&utm_campaign=%5B312%5D%5BOP%5D%5BHR%5D%5BGeral%5D%5BSearch%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=1620955800&hsa_cam=21542018591&hsa_grp=165520193733&hsa_ad=708070867381&hsa_src=g&hsa_tgt=kwd-1438800820250&hsa_kw=escola%20dnc&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZd4Yyn75VHS1ju1SM5IocPwJ1fdR8580neT7EFIhliSDLnEOHN411gaAp_VEALw_wcB" target="_blank"><img src="./assets_1_header/logo.svg" id="logo" alt="ERRO"></a>
+            
+            <h1 id="tituloMenuSuperior">
+                Dê os primeiros passos da<br>
+                sua carreira em Tecnologia
+            </h1>
+            <p id="textoMenuSuperior">
+                Inscreva-se no curso gratuito de Introdução à <br>
+                Tecnologia da DNC School e aprenda os principais <br>
+                fundamentos para construir experiências efetivas.
+            </p>
+        </div>
+
+        <!--MENU INFORMACIONAL-->
+        <div id="menuInformacional">
+                
+                <p class="textoInformativo"><img src="assets_2_Informacional/certifcado.svg" alt="ERRO" class="icone"> Certificado de conclusão</p>
+
+                
+                <p class="textoInformativo"><img src="assets_2_Informacional/relogio.svg" alt="ERRO" class="icone"> 4 horas de conteúdo</p>
+
+                
+                <p class="textoInformativo"><img src="assets_2_Informacional/camera.svg" alt="ERRO" class="icone"> Aulas online gravadas</p>
+        </div>
+
+        <!--SECAO VIDEO-->
+        <div id="secaoVideo">
+            <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div>
+                <h1 id="tituloVideo">
+                    Aprenda com especialistas e 
+                    <br>comece seu primeiro projeto
+                    
+                </h1>
+                <br>
+                <p>
+                    Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                    os principais métodos e ferramentas da área para resolver <br>
+                    problemas complexos.<br><br>
+    
+                    Conquiste seu certificado e desenvolva um projeto prático para <br>
+                    aplicar seus conhecimentos.
+                </p>
+            </div>
+        </div>
+
+        <!--CARROSEL-->
+        <div id="carrosel">
+            <h1 id="tituloCarrosel">
+                Mais de 500 alunos já iniciaram seus estudos
+            </h1>
+
+            <!--DIVISAO DOS CARDS-->
+            <div id="divCards">
+                <img id="setaEsquerda" onclick="rolarParaEsquerda()" class="seta" src="assets_3_carrosel/setaEsquerda.svg" alt="">
+                <img id="leonardo" class="card" src="assets_3_carrosel/leonardo.svg" alt="ERRO">
+                <img id="samantha" class="card" src="assets_3_carrosel/samantha.svg" alt="ERRO">
+                <img id="bruna" class="card" src="assets_3_carrosel/bruna.svg" alt="">
+                <img id="setaDireita" onclick="rolarParaDireita()" class="seta" src="assets_3_carrosel/setaDireita.svg" alt="">
+            </div>
+        </div>
+
+        <!--FORMULARIO-->
+        <div id="formulario">
+            <h1 id="tituloFormulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+            <form action="https://api.sheetmonkey.io/form/o8ihqo1juHded1cRA1FrVM" method="post">
+                <input type="text" placeholder="Nome" name="Nome" required><br>
+                <input type="email" placeholder="E-mail" name="E-mail" required><br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <input type="number" placeholder="Telefone" name="Telefone"><br>
+                <button type="submit">Acesse a ementa grátis</button>
+            </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
